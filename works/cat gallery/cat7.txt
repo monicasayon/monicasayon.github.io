@@ -1,0 +1,23 @@
+<html>
+	<head><title> Cat Gallery </title></head>
+	<body bgcolor="#FBF8F1" alink="#A97155" vlink="#18191a" link="#18191a">
+		<table align="center" border=2 bordercolor="#54BAB9" bgcolor="#E9DAC1" cellpadding="10" cellspacing="10">
+			<th align="center" bgcolor="##54BAB9" colspan="4" ><font face="arial" color="#1c252e"> CAT ALBUM </font></th>
+			<tr>
+				<td align="center" colspan=3><img src="cat7.jpg" width="400" height="400"></td>
+			</tr>
+			<tr>
+				<td align="center" bgcolor="#94B49F"><a href="cat6.html"><font face="impact"> PREVIOUS </font></td>
+				<td align="center"><font face="impact">
+				<a href="cat1.jpg">1</a> &nbsp&nbsp&nbsp
+				<a href="cat2.jpg">2</a> &nbsp&nbsp&nbsp
+				<a href="cat3.jpg">3</a> &nbsp&nbsp&nbsp
+				<a href="cat4.jpg">4</a> &nbsp&nbsp&nbsp
+				<a href="cat5.jpg">5</a> &nbsp&nbsp&nbsp
+				<a href="cat6.jpg">6</a> &nbsp&nbsp&nbsp
+				<a href="cat7.jpg">7</a> &nbsp&nbsp&nbsp
+				<a href="cat8.jpg">8</a> &nbsp&nbsp&nbsp
+				</font></td>
+				<td align="center" bgcolor="#94B49F"><a href="cat8.html"><font face="impact"> NEXT </font></a></td>
+			</tr>
+</html>

@@ -1,0 +1,107 @@
+body {
+    width: 100%;
+}
+
+#bodycontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#yourip {
+    background-color: #2A3335;
+    padding: 5px 5px;
+    color: white;
+    font-size:small;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height:30px;
+}
+
+#youripcontent {
+    display: flex;
+    justify-content: center;
+
+}
+
+#header {
+    padding: 10px 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    flex-grow: 2;
+    box-shadow: 0 1px 0 0;
+    font-size: 14px;
+    color: black;
+}
+
+
+a:hover {
+    color: blue;
+}
+
+#logo {
+    color: white;
+}
+
+#dropdown {
+
+}
+
+#additional {
+}
+
+#navbutton {
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+#ipinfo {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #EEF1FF;
+    padding: 100px 50px;
+}
+
+#ipheader {
+    font-size: 45px;
+}
+
+#enterip {
+    font-size: 20px;
+}
+
+#ipinput {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#ipButton {
+    width: auto;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+#output {
+    padding: 20px 30px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    border: 10px solid #DAEAF1;
+    background-color: white;
+}
+
+#resultcol {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+}

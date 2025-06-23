@@ -1,0 +1,265 @@
+html {
+    background-size: 100%;
+}
+
+body {
+    background-color: #F5F5F5;
+    text-align: center;
+    background-size: contain ;
+    background-position: center;
+    background-repeat:repeat;
+
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    background-position: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+header {
+    height: auto;
+    text-align: left;
+    padding-top: 10px;
+} 
+
+header img {
+    position: absolute;
+    padding-left: 100px;
+    height: 100px;
+}
+
+header h1 {
+    float: left;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    color: #B67428;
+    padding-left: 200px;
+}
+
+nav {
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+nav a {
+    font-size: 15px;
+    color: rgb(75, 71, 71);
+    font-family: 'Comic Sans MS';
+    text-decoration: none;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(96, 95, 95);
+    margin-left: 20px;
+}
+
+nav a:hover {
+    border: 1px solid #E2C09B;
+}
+
+.welcome {
+    background-image: url(images/tradgheader.png);
+    background-color: rgb(220, 197, 151);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 280px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+main {
+    height: 500px;
+    margin-bottom: 10px;
+    padding-left: 400px;
+    padding-right: 400px ;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    box-shadow: 0px -5px 3px rgba(160, 160, 160, 0.427);
+}
+
+main div {
+    background-color: rgba(30, 27, 24, 0.458);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 15px rgba(181, 180, 180, 0.405);
+
+}
+
+
+main h1 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 80px;
+}
+
+section {
+    margin-top: 200px;
+    width: 1024px;
+    height: 300px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+section div {
+    width: 200px;
+    height: 220px;
+    box-shadow: 0px 0px 15px rgba(181, 180, 180, 0.405);
+    position: absolute;
+    border-radius: 20px;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.question1 {
+    
+}
+
+.question1:hover {
+    background-color: #B67428;
+}
+
+.question2 {
+    margin-left: 260px;
+}
+
+.question2:hover {
+    background-color: #4DB39C;
+}
+
+.question3 {
+    margin-left: 520px;
+}
+
+.question3:hover {
+    background-color: #F4B157;
+}
+
+
+footer {
+    background-color: rgb(220, 197, 151);
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 100px;
+    padding-top: 40px;
+    float: left;
+}
+
+footer a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+footer div {
+    position: absolute;
+}
+
+#andrei {
+    background-image: url(images/andrei.png);
+    background-color: #fff;
+    transition: background-color 1s ease-out 50ms;
+}
+
+#andrei:hover {
+    background-color: #7EC1D1;
+}
+
+
+#nicole {
+    background-image: url(images/nicole.png);
+    background-color: #fff;
+    transition: background-color 1s ease-out 100ms;
+}
+
+#nicole:hover {
+    background-color: #4DB39C;
+}
+
+#stephanie {
+    background-image: url(images/steph.png);
+    background-color: #fff;
+    transition: background-color 1s ease-out 100ms;
+}
+
+#stephanie:hover {
+    background-color: #FC795D;
+}
+
+#monica {
+    background-image: url(images/monica.png);
+    background-color: #fff;
+    transition: background-color 1s ease-out 100ms;
+}
+
+#monica:hover {
+    background-color: #F4B157 ;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.created {
+    width: 300px;
+    text-align: left;
+    font-size: 8px;
+}
+
+.about {
+    padding-left: 250px;
+    width: 350px;
+    text-align: left;
+    font-size: 8px;
+}
+
+.built {
+    padding-left: 650px;
+    width: 400px;
+    text-align: left;
+    font-size: 8px;
+}
+
+.resources {
+    padding-left: 800px;
+    width: 200px;
+    text-align: left;
+    font-size: 8px;
+}
+
+.contacts {
+    padding-left: 950px;
+    width: 200px;
+    text-align: left;
+    font-size: 8px;
+}
+
+a {
+    font-size: 10px;
+}

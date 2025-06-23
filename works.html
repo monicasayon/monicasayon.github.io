@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS</title>
+    <link rel="icon" href="\img\android-chrome-192x192.png" type="image/x-icon">
+</head>
+
+<style>
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; 
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color:#f0f0f0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+#homelogo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 40%;
+
+}
+
+#navigations {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 40px;
+    align-items: center;
+    width: 40%;
+    text-decoration: none;
+}
+
+#navigations a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: rgb(19, 19, 19);
+    text-decoration: none;
+    font-family: "helvetica", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0;
+}
+
+#aboutnav:hover {    
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #1639ff;
+}
+
+#worksnav:hover {
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #ff1616;
+}
+
+#contactsnav:hover {
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #efff16;
+}
+
+#works-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 120px;
+}
+
+#works-frame div {
+    margin: auto;
+    width: 90%;
+}
+
+</style>
+
+<body>
+    <div class="navbar">
+        <div id="homelogo">
+            <a href="index.html" >
+                <img src="img/logo.png" alt="Monica Sayon" width="80px" height="80px">
+            </a>
+        </div>
+        <div id="navigations">
+            <a id="aboutnav" href="about.html">about</a>
+            <a id="worksnav" href="works.html">works</a>
+            <a id="contactsnav" href="contacts.html">contact</a>
+        </div>
+    </div>
+    <div id="works-frame">
+        <h1>Mobile Phone Store</h1>
+        <iframe src="works/CellCompWebsite/index.html" width="90%" height="500px" style="border:1px solid #bbbbbb; border-radius: 5px; align-self: center;"></iframe>
+        <br>
+        <h1>Python Website</h1>
+        <iframe src="works/ip-python/index.html" width="90%" height="500px" style="border:1px solid #bbbbbb; border-radius: 5px; align-self: center;"></iframe>
+        <br>
+        <h1>Flexbox Website</h1>
+        <iframe src="works/flexbox/index.html" width="90%" height="500px" style="border:1px solid #bbbbbb; border-radius: 5px; align-self: center;"></iframe>
+        <br>
+        <h1>Galerya ng Kultura</h1>
+        <iframe src="works/galerya/galeryangkultura.html" width="90%" height="500px" style="border:1px solid #bbbbbb; border-radius: 5px; align-self: center;"></iframe>
+        <br>
+        <h1>Calendar</h1>
+        <iframe src="works/CALENDAR/mainpage.html" width="90%" height="500px" style="border:1px solid #bbbbbb; border-radius: 5px; align-self: center;"></iframe>
+        <br>
+        <h1>Art Gallery</h1>
+        <iframe src="works/artgallery/gallery.html" width="90%" height="500px" style="border:1px solid #bbbbbb; border-radius: 5px; align-self: center;"></iframe>
+        <br>
+        <h1>Valorant Gallery</h1>
+        <iframe src="works/valorant gallery/Main.html" width="90%" height="500px" style="border:1px solid #bbbbbb; border-radius: 5px; align-self: center;"></iframe>
+        <br>
+        <h1>Cat Gallery</h1>
+        <iframe src="works/cat gallery/main.html" width="90%" height="500px" style="border:1px solid #bbbbbb; border-radius: 5px; align-self: center;"></iframe>
+        <br>
+        <h1>Now Playing</h1>
+        <iframe src="works/nowplaying/now_playing.html" width="90%" height="500px" style="border:1px solid #bbbbbb; border-radius: 5px; align-self: center;"></iframe>
+        <br>
+        <h1>Adore</h1>
+        <iframe src="works/Adore/main.html" width="90%" height="500px" style="border:1px solid #bbbbbb; border-radius: 5px; align-self: center;"></iframe>
+        <br>
+        <h1>Artist Gallery</h1>
+        <iframe src="works/art gallery/main.html" width="90%" height="500px" style="border:1px solid #bbbbbb; border-radius: 5px; align-self: center;"></iframe>
+        <br>
+        <h1>Resto</h1>
+        <iframe src="works/Resto/pages/main.html" width="90%" height="500px" style="border:1px solid #bbbbbb; border-radius: 5px; align-self: center;"></iframe>
+        <br> 
+    </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#album-cover-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.album-cover {
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#current-cover {
+    background-image: url('images/album_cover_2.jpg');
+    width: 300px;
+    height: 300px;
+    z-index: 2;
+    border: solid 10px hsla(0, 1%, 85%, 0.5);
+}
+
+#prev-cover {
+    background-image: url('images/album_cover_1.jpg');
+    z-index: 1;
+    left: 80px;
+}
+
+#next-cover {
+    background-image: url('images/album_cover_3.jpg');
+    z-index: 1;
+    right: 80px;
+}
+
+#song-info {
+    width: 800px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#song-title {
+    font-weight: bold;
+    font-size: 30px;
+    color: indianred
+}
+
+#artist {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#progress-bar {
+    width: 600px;
+    height: 5px;
+    background-color: #cfcfcf;
+    margin-top: 25px;
+}
+
+.progress-barfill {
+        width: 75%;
+        height: 100%;
+        background-color: indianred;
+}
+
+#player-controls {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#prev-button, #next-button {
+    width: 50px;
+    height: 50px;
+}
+
+#play-button {
+    margin: 0px 30px 0px 30px;
+}

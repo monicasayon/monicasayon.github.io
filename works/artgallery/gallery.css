@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    width: 1000px;
+    padding-bottom: 50px;
+}
+
+#gallery-header {
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+}
+
+#art-exhibit {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.artwork {
+    width: 300px;
+    height: 350px;
+    background-color: #efefef;
+    margin-top: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer; 
+}
+
+#artwork-1 {
+    background-image: url('images/johnny-depp.jpg');
+}
+
+#artwork-2 {
+    background-image: url('images/moonlight-lake.png');
+}
+
+#artwork-3 {
+    background-image: url('images/rocket-to-the-moon.jpg');
+}
+
+#artwork-4 {
+    background-image: url('images/red-planet.jpg');
+}
+
+#artwork-5 {
+    background-image: url('images/trio.jpg');
+}
+
+#artwork-6 {
+    background-image: url('images/portrait-of-a-lady.jpg');
+}
+
+
+#title {
+    font-weight: bold;
+    font-size: 19px;
+    position: relative;
+    top: 270px;
+    padding-top: 20px;
+    padding-bottom:45px;
+    padding-left:15px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+#artist {
+    font-size: 16px;
+    position: relative;
+    top: 230px;
+    left: 15px;
+}
+
+.heart {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    bottom: 85px;
+    left: 230px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    background-color: rgba(255,255,255,0.9);
+}
+#heart {
+    background-image: url('images/heart.png');
+}
+
+

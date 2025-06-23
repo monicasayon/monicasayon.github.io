@@ -1,0 +1,580 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+img {
+	width:100%;
+}
+
+::root{
+--color-gray-light-1:#F5F5F5; /* whitesmoke */
+
+--color-gray-dark-1:#DDD;
+--color-gray-dark-2:#AAA;
+--color-gray-dark-3:#999;
+--color-gray-dark-4:#555;
+--color-gray-dark-5:#333;
+
+--color-green-1:#008000; /*green*/
+--color-green-2:#6B8E23; /*olivedrab*/
+
+--color-yellow:#FFD700; /*gold*/
+
+--color-red-1:#FF4500; /*orangered*/
+--color-red-2:#B22222; /*firebrick*/
+}
+
+body{
+	font-weight:300;
+	font-family:"Open Sans",sans-serif;
+	color:#333;
+	font-size:14px;
+	letter-spacing:normal;
+}
+
+/* header ****************************/
+.header{
+	max-width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:16px;
+	display:flex;
+	justify-content:space-between;
+}
+.header-logo {
+	width:60px;
+	margin:5px 0;
+}
+.org-name{
+	align-self:center;
+	margin-right:auto;
+	margin-left:10px;
+	font-size:24px;
+	font-weight:400;
+	color:green;
+}
+.nav{
+	display:flex;
+	align-items:stretch;
+}
+.navbar{
+	display:flex;
+}
+.navbar-item{
+	list-style:none;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	padding:0 20px;
+	cursor:pointer;
+}
+
+.navbar-item img{
+	width:20px;
+	height:20px;
+	filter:opacity(.5);
+	margin-top:14px;
+}
+
+.navbar-item:hover, .navbar-item.activepage{
+	background-color:gold;
+}
+
+/*tab ****************************/
+.tab{
+	width:100%;
+	padding:10px;
+	background-color:olivedrab;
+	display:flex;
+	justify-content:center;
+	align-items:space-between;
+}
+
+.tab-recipe{
+	display:flex;
+	align-self:center;
+	width: 960px;
+	color: white;
+	list-style:none;
+	letter-spacing:1px;
+	align-items:center;
+}
+
+.tab-icon{
+	width:14px;
+	height:14px;
+	filter:invert(1);
+}
+
+.tab-recipe-container{
+	font-size:24px;
+	font-weight:bold;
+	padding:10px;
+}
+
+.tab-title-container{
+	font-size:20px;
+	margin-left:auto;
+	font-weight:350;
+	justify-content:flex-end;
+}
+
+
+
+/* main *******************************/
+main{
+	max-width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:14px;
+}
+/* content ****************************/
+.content-recipe{
+	background-color:whitesmoke;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	font-weight:500;
+	flex-wrap: wrap;
+	color: #555;
+}
+
+.recipe-header{
+	display:flex;
+	flex-direction:column;
+	padding:5px 15px;
+}
+
+.recipe-profile{
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:center;
+}
+
+.profile-title{
+	font-size:16px;
+	padding:10px 20px;
+}
+
+.profile-linda{
+	font-size:14px;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+.recipe-profile img{
+	width:70px;
+	height:70px;
+	border-radius:50px 50px;
+	border:5px solid white;
+}
+
+.recipe-item{
+	display:flex;
+	flex-direction:row;
+	align-self:flex-start;
+}
+
+.recipe-item li{
+	font-size:14px;
+	list-style:none;
+}
+
+.recipe-subitem-1{
+	display:flex;
+	flex-direction:column;
+}
+
+.recipe-subitem-2{
+	display:flex;
+	flex-direction:column;
+	padding:0px 20px;
+}
+
+.recipe-description{
+	display:flex;
+	align-items:flex-start;
+	font-size:14px;
+	text-align:justify;
+	margin-top:10px;
+}
+
+.food-1{
+	display:flex;
+	align-self:flex-end;
+	width:70%;
+}
+
+/* cooking ****************************/
+.cooking{
+	display:flex;
+	justify-content:space-between;
+	border:1px dashed whitesmoke;
+	padding:10px;
+	padding-top: 30px;
+	font-weight:500;
+	letter-spacing:normal;
+	align-items:baseline;
+	color: #555;
+}
+
+.cooking-ingredients{
+	padding:10px 10px;
+}
+
+.cooking-ingredients h2{
+	color:#333;
+}
+
+.ingredients{
+	list-style:none;
+}
+
+.ingredients li b{
+	color:#333;
+}
+
+.cooking-instructions{
+	width:70%;
+	list-style:none;
+}
+
+.cooking-instructions h2{
+	color:#333;
+}
+
+.instructions{
+	padding-left:20px;
+}
+
+/* ratings ****************************/
+.ratings{
+	background-color:firebrick;
+	color:#FFF;
+	padding: 0 0 0 20px;
+	
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.ratings-location{
+	display:flex;
+	align-items:center;
+}
+.ratings-tags{
+	display:flex;
+	align-items:center;
+}
+.ratings-icon{
+	width:18px;
+	height:18px;
+	filter:invert(1);
+}
+.ratings ul {
+	display:flex;
+}
+.ratings li{
+	list-style:none;
+}
+.ratings li:not(:first-child)::before{
+	content:" | ";
+}
+.ratings-stars{
+	display:flex;
+	align-items:center;
+}
+.ratings-votes{
+	background-color:orangered;
+	padding:10px;
+	font-size:12px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.ratings-item .ratings-icon:first-of-type{
+	margin-right:5px;
+}
+
+/* recommendations ****************************/
+
+.recommendations{
+	background-color:whitesmoke;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	padding: 80px 10px 40px;
+	align-items:center;
+	color:#333;
+}
+
+.recommendation-header{
+	letter-spacing:15px;
+	font-size:24px;
+	font-weight:100px;
+}
+
+.recommend-item{
+	display:flex;
+	justify-content:space-around;
+	margin: 50px 0px;
+}
+
+.recommend-item .ratings-stars{
+	filter:invert(1);
+	display:flex;
+	align-items:center;
+}
+
+.recommend-item .ratings-icon{
+	width:12px;
+	height:12px;
+	margin:0px 2px;
+}
+
+.recommend-item-1{
+	background-color:white;
+	width:30%;
+}
+
+.item1-description{
+	display:flex;
+	flex-direction:column;
+	padding:20px;
+	align-items:center;
+}
+
+.recommend-item-2{
+	background-color:white;
+	width:30%;
+}
+
+.item2-description{
+	display:flex;
+	flex-direction:column;
+	padding:20px;
+	align-items:center;
+}
+
+.recommend-item-3{
+	background-color:white;
+	width:30%;
+}
+
+.item3-description{
+	display:flex;
+	flex-direction:column;
+	padding:20px;
+	align-items:center;
+}
+
+.recommend-title{
+	font-size:16px;
+	letter-spacing:normal;
+}
+
+.profile{
+	display:inline-flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+	padding:20px;
+	width:100%;
+	font-weight:300;
+}
+
+.profile-pic{
+	width:50px;
+	height:50px;
+	border-radius:50px 50px;
+}
+
+.rating-profile{
+	background-color:olivedrab;
+	display:inline-flex;
+	flex-direction:column;
+	align-items:center;
+	margin-left: auto;
+	color:white;
+	border-radius:5px;
+	padding:10px 5px;
+	
+}
+
+.rating-profile p{
+	font-size:12px;
+}
+
+.footer{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:100%;
+	background-color:#555;
+	letter-spacing:normal;
+}
+
+.footer-container{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	width:960px;
+	padding:20px 0px;
+	font-weight:300;
+	color:white;
+	align-items:center;
+}
+
+.footer-org{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.footer-icon{
+	filter:invert(1);
+	width:12px;
+	align-self:baseline;
+}
+
+.location-info{
+	display:flex;
+	flex-direction:column;
+	list-style:none;
+}
+
+.kitchen-logo{
+	 width:100px;
+	 margin-bottom:10px;
+}
+
+.footer-contact{
+	display:flex;
+	flex-direction:column;
+	list-style:none;
+	margin-top:20px;
+	margin-left:50px;
+	letter-spacing:normal;
+	font-size:10px;
+}
+
+.contact{
+	display:flex;
+}
+
+
+.footer-contact span{
+	margin-left:10px;
+	opacity:50%;
+}
+
+.footer-contact li{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+}
+
+.footer-social{
+	display:flex;
+	flex-direction:row;
+	align-self:flex-end;
+	justify-content:space-between;
+	margin-left:auto;
+}
+
+.social{
+	filter:invert(1);
+	width:40px;
+	margin:0px 10px;
+	opacity:50%;
+}
+
+.copyright-container{
+	margin-top:auto;
+	background-color:#333;
+	display:flex;
+	justify-content:center;
+	width:100%;
+}
+
+.copyright-content{
+	display:inline-flex;
+	color:white;
+	width:960px;
+	justify-content:space-between;
+	align-items:baseline;
+	font-size:10px;
+	font-weight:300;
+	opacity:50%;
+	padding:5px 0px;
+}
+
+.copyright{
+	display:flex;
+	flex-direction:row;
+
+}
+
+.developedby{
+	display:flex;
+	align-items:center;
+}
+
+.developedby img{
+	width:10px;
+	height:10px;
+	margin-right:5px;
+	filter:invert(1);
+}
+
+.c-logo{
+	width:10px;
+	filter:invert(1);
+}
+
+
+/*media query ****************************/
+
+@media screen and (max-width:960px) {
+	body{
+		max-width: 960px;
+		padding: none;
+	}
+	main{
+	 	width:100%;
+		padding:0px;
+	}
+	.header{
+		max-width:960px;
+		padding:10px;
+	}
+	.tab{
+		width:960px;
+		padding:10px;
+	}
+}
+
+@media (max-width:850px){
+	body{
+		max-width:850px;
+		background-color: #008000;
+	}
+
+	.content-recipe{
+		display:flex;
+		flex-direction:row-reverse;
+		flex-wrap:wrap;
+	}
+
+	.food-1{
+		flex-wrap:nowrap;
+		align-self:flex-start;
+		width:850px;
+	}
+}
